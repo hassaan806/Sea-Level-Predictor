@@ -24,7 +24,7 @@ def draw_plot():
     sea_levels_recent_predicted = [slope_recent * year + intercept_recent for year in years_recent]
     plt.plot(years_recent, sea_levels_recent_predicted, 'g', label="Best Fit Line (2000-2050)")
 
-    # Labels and title
+    
     plt.xlabel("Year")
     plt.ylabel("Sea Level (inches)")
     plt.title("Rise in Sea Level")
